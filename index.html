@@ -4,12 +4,219 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=', initial-scale=1.0" />
     <!--Stylesheet-->
-    <link rel="stylesheet" href="css/style.css"
-
+    <link rel="stylesheet" href="css/style.css" />
     <!--javascript-->
-    <script src="js/app.js"></script>
-    <title>Document</title>
+    <script type="module" src="js/app.js"></script>
+    <title>Odin | Admin Dashboard</title>
   </head>
   <body>
+    <main class="flex">
+      <!--Sidebar-->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <img
+            src="images/icons/dashboard.svg"
+            class="dashboard"
+            alt="dashboard icon"
+          />
+          <h2>Dashboard</h2>
+        </div>
+        <div class="sidebar-links">
+          <ul>
+            <t-sidebar-item
+              icon="../images/icons/dashboard.svg"
+              alt="home icon"
+              label="Home"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/profile.svg"
+              alt="profile icon"
+              label="Profile"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/messages.svg"
+              alt="messages icon"
+              label="Messages"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/history.svg"
+              alt="history icon"
+              label="History"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/tasks.svg"
+              alt="tasks icon"
+              label="Tasks"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/community.svg"
+              alt="community icon"
+              label="Community"
+            ></t-sidebar-item>
+          </ul>
+          <ul>
+            <t-sidebar-item
+              icon="../images/icons/settings.svg"
+              alt="settings icon"
+              label="Settings"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/support.svg"
+              alt="support icon"
+              label="Support"
+            ></t-sidebar-item>
+            <t-sidebar-item
+              icon="../images/icons/privacy.svg"
+              alt="privacy icon"
+              label="Privacy"
+            ></t-sidebar-item>
+          </ul>
+        </div>
+      </aside>
+      <section>
+        <!--Navigation Bar-->
+        <header>
+          <nav>
+            <div class="nav-main">
+              <div class="search-bar">
+                <img src="images/icons/magnify.svg" alt="search icon" />
+                <input type="text" />
+              </div>
+              <div class="nav-right">
+                <img
+                  src="images/icons/ring-bell-outline.svg"
+                  alt="notification bell icon"
+                />
+                <div class="profile">
+                  <div class="avatar flex-center">
+                    <img src="images/avatar.png" alt="user avatar" />
+                  </div>
+                  <h4 class="username">Morgan Oakley</h4>
+                </div>
+              </div>
+            </div>
+            <div class="nav-sub">
+              <div class="profile-sub">
+                <div class="avatar-sub flex-center">
+                  <img src="images/avatar.png" alt="user avatar" />
+                </div>
+
+                <div class="profile-intro">
+                  <p class="profile-intro-sub">Hi there,</p>
+                  <h3>Morgan Oakley (@morgan)</h3>
+                </div>
+              </div>
+              <div class="nav-links">
+                <ul>
+                  <li><button class="nav-item">New</button></li>
+                  <li><button class="nav-item">Upload</button></li>
+                  <li><button class="nav-item">Share</button></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!--Main Content-->
+        <div class="content">
+          <t-container header="Your Projects">
+            <div class="container-content">
+              <t-card title="Super Cool Project" highlight>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores enim, ipsa sequi minima quos voluptates?
+              </t-card>
+              <t-card title="Less Cool Project" highlight>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                repellendus unde eum quo possimus quos, fuga neque qui, commodi,
+                natus incidunt ad molestiae autem sapiente laudantium fugit
+                vitae distinctio nisi.
+              </t-card>
+              <t-card title="Impossible App" highlight
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+                voluptatibus facere iure alias mollitia ipsum cumque architecto,
+                molestiae dolorem nisi, consequuntur repellendus officiis atque!
+                Cum natus deserunt fuga voluptas sapiente!
+              </t-card>
+              <t-card title="Easy Peasy App" highlight>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores enim, ipsa sequi minima quos voluptates?
+              </t-card>
+              <t-card title="Ad Blocker" highlight>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores enim, ipsa sequi minima quos voluptates?
+              </t-card>
+              <t-card title="Money Maker" highlight>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores enim, ipsa sequi minima quos voluptates? Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+              </t-card>
+            </div>
+          </t-container>
+          <div class="sidebar-content">
+            <t-container header="Announcements">
+              <div class="card">
+                <div>
+                  <h5>Site Management</h5>
+                  <p class="card-text-sidebar">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ipsam deleniti sequi enim vero
+                  </p>
+                </div>
+                <hr />
+                <div>
+                  <h5>Community Share Day</h5>
+                  <p class="card-text-sidebar">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ipsam deleniti sequi enim vero
+                  </p>
+                </div>
+                <hr />
+                <div>
+                  <h5>Updated Privacy Policy</h5>
+                  <p class="card-text-sidebar">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ipsam deleniti sequi enim vero. Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+              </div>
+            </t-container>
+            <t-container header="Trending">
+              <div class="card">
+                <div class="user-card">
+                  <div class="user">
+                    <img src="images/user1.jpg" alt="" />
+                    <div class="user-info">
+                      <h6 class="user-tag">@tegan</h6>
+                      <p class="user-sub">World Peace Builder</p>
+                    </div>
+                  </div>
+                  <div class="user">
+                    <img src="images/user2.jpg" alt="" />
+                    <div class="user-info">
+                      <h6 class="user-tag">@morgan</h6>
+                      <p class="user-sub">Super Cool Project</p>
+                    </div>
+                  </div>
+                  <div class="user">
+                    <img src="images/user3.jpg" alt="" />
+                    <div class="user-info">
+                      <h6 class="user-tag">@kendall</h6>
+                      <p class="user-sub">Life Changing App</p>
+                    </div>
+                  </div>
+                  <div class="user">
+                    <img src="images/user4.jpg" alt="" />
+                    <div class="user-info">
+                      <h6 class="user-tag">@alex</h6>
+                      <p class="user-sub">No Traffic Maker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </t-container>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
