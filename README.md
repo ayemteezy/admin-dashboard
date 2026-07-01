@@ -170,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 ### Top contributors:
 
 <a href="https://github.com/ayemteezy/admin-dashboard/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ayemteezy/admin-dashboard" alt="contrib.rocks image" />
+  <img src="https://contrib.rocks/image?repo=ayemteezy/admin-dashboard" />
 </a>
 
 <!-- LICENSE -->
