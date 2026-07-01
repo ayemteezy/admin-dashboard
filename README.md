@@ -214,7 +214,7 @@ Project Link: [https://github.com/ayemteezy/calculator-app](https://github.com/a
 [issues-shield]: https://img.shields.io/github/issues/ayemteezy/admin-dashboard.svg?style=for-the-badge
 [issues-url]: https://github.com/ayemteezy/admin-dashboard/issues
 [license-shield]: https://img.shields.io/github/license/ayemteezy/admin-dashboard.svg?style=for-the-badge
-[license-url]: https://github.com/ayemteezy/admin-dashboard/blob/master/LICENSE.txt
+[license-url]: https://github.com/ayemteezy/admin-dashboard/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/laurence-lester-cari%C3%B1o/
 [product-screenshot]: images/screenshot.png
