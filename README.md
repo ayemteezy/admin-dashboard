@@ -41,7 +41,7 @@
     <a href="https://github.com/ayemteezy/admin-dashboard"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ayemteezy/admin-dashboard">View Demo</a>
+    <a href="https://ayemteezy.github.io/admin-dashboard/">View Demo</a>
     &middot;
     <a href="https://github.com/ayemteezy/admin-dashboard/issues/new?labels=bug&template=bug-report.md">Report Bug</a>
     &middot;
@@ -79,7 +79,7 @@
 
 ## About The Project
 
-[![Admin Dashboard Screen Shot][product-screenshot]](https://example.com)
+[![Admin Dashboard Screen Shot][product-screenshot]](https://ayemteezy.github.io/admin-dashboard/)
 
 This project is part of [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)'s Intermediate HTML and CSS course. The goal was to recreate a common admin dashboard layout using **CSS Grid** as the primary layout tool, without relying on any CSS framework.
  
