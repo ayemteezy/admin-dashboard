@@ -14,9 +14,9 @@ export class TSidebarItem extends HTMLElement {
 
     this.innerHTML = /*html*/ `
       <li class="sidebar-item">
-        <img class="sidebar-icon" src="${icon}" alt="" />
+        <img class="sidebar-icon" src="${icon}" alt="${alt}" />
         <p class="sidebar-label">${label}</p>
-      </div>
+      </li>
     `;
   }
 }
